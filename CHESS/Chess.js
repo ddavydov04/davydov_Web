@@ -527,7 +527,7 @@ document.querySelectorAll('.box').forEach(item => {
 
 
 
-// Moving the element
+// Движения элементов
 document.querySelectorAll('.box').forEach(hathiTest => {
 
     hathiTest.addEventListener('click', function () {
@@ -562,7 +562,7 @@ document.querySelectorAll('.box').forEach(hathiTest => {
 
 
 
-// Prvents from selecting multiple elements
+// Предотвращает выбор нескольких элементов
 z = 0
 document.querySelectorAll('.box').forEach(ee => {
     ee.addEventListener('click', function () {
